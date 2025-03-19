@@ -1,0 +1,55 @@
+*{
+margin:0;
+padding: 0;
+}
+
+img{
+    margin-left: 0%;
+    margin: 2vh;
+    width: 9vh;
+    height:7vh;
+    border-radius: 50%;
+}
+a{
+    
+    color: white;
+    text-decoration: none;
+    transition:0.3s;
+}
+a:hover{
+    opacity: 0.7;
+}
+logo{
+    width:2vh;
+    font-size:24px;
+    text-transform: uppercase;
+    letter-spacing:4px;
+}
+logo:hover{
+    width:4vh;
+    height:3vh;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family:system-ui,-apple-system, helvetica, Arial, Helvetica, sans-serif, sans-serif;
+    background-color: rgb(28, 21, 58);
+    height: 8vh;
+
+}
+
+main{
+    background: url('./img/caras\ de\ pau.png');
+    background-size: cover;
+    height: 92vh;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li{
+    letter-spacing:3px;
+    margin-left: 32px;
+}
